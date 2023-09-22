@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Tyuiu.SorokinAD.Sprint1.Task0.V26.Lib;
+using Tyuiu.SorokinAD.Sprint1.Task1.V17.Lib;
 
-namespace Tyuiu.SorokinAD.Sprint1.Task0.V26.Test
+namespace Tyuiu.SorokinAD.Sprint1.Task1.V17.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -11,8 +11,11 @@ namespace Tyuiu.SorokinAD.Sprint1.Task0.V26.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            var res = ds.Calculate();
-            Assert.AreEqual(7, res);
+            double x = 1.0;
+            double y = 1.0;
+            var res = ds.Calculate(x,y);
+            Assert.AreEqual(4, res);
         }
     }
 }
+
