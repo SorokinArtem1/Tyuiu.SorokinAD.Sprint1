@@ -56,7 +56,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.SorokinAD.Sprint1.Task1.V3.Lib\Tyuiu.SorokinAD.Sprint1.Task3.V3.Lib.csproj">
+    <ProjectReference Include="..\Tyuiu.SorokinAD.Sprint1.Task3.V3.Lib\Tyuiu.SorokinAD.Sprint1.Task3.V3.Lib.csproj">
       <Project>{467d3bd8-0f05-42c0-8376-2723322166d2}</Project>
       <Name>Tyuiu.SorokinAD.Sprint1.Task3.V3.Lib</Name>
     </ProjectReference>
